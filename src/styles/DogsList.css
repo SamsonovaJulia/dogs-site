@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.item  {
+    padding: 10px;
+}
+
+.button{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background: rgb(64,199,129);
+    padding: .5em 2em;
+    border-radius: 6px;
+}
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
